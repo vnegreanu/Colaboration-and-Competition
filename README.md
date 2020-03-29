@@ -26,8 +26,7 @@ The environment is considered solved  when the agents score of +0.5 (over 100 co
 - `utils/ou_noise.py`: Internal class used to calculate the noise using Ornstein-Uhlenbeck method
 - `utils/workspace_utils.py`: Internal functions to keep the workspace session alive during a longer run
 - `saved_data/actor_solved.pth`: Saved actor weigths
-- `saved_data/critic1_solved.pth`: Saved critic1 network weigths
-- `saved_data/critic2_solved.pth`: Saved critic2 network weigths
+- `saved_data/critic_solved.pth`: Saved critic network weigths
 - `README.md`: README file with project description
 - `install_requirements.txt`: File with python packages install dependencies
 - `report.pdf`: Technical report on the project. Algorithm choise, design decission, future improvements,etc... 
@@ -42,9 +41,9 @@ pip install install_requirements.txt
 
 Furthermore, you need to download the environment from one of the links below. You need only to select
 the environment that matches your operating system:
-- Linux : [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
-- MAC OSX : [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
-- Windows : [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
+- Linux : [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+- MAC OSX : [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+- Windows : [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
 
 ## Running
 Run the cells in the notebook `Tennis.ipynb` to train an agent that solves our required
