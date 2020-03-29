@@ -1,0 +1,18 @@
+# General build files
+.idea/
+.pybuild/
+build/
+
+# Compiled py files
+*.pyc
+__pycache__/
+
+# Debian files
+debian/
+
+# Documentation files and logs
+docs/
+*.log
+
+# Jupyter local checkpoints files
+.ipynb_checkpoints/
